@@ -21,16 +21,11 @@
 // 波浪的fillColor
 @property (nonatomic, strong) UIColor * waveColor;
 
-// X轴上的偏移量
-@property(nonatomic, assign) CGFloat offsetX;
-
 // 振幅, 默认 20
 @property(nonatomic, assign) CGFloat amplitude;
 
 // 系数，控制水波在垂直方向上的偏移（0-1）之间, 默认0.6
 @property(nonatomic, assign) CGFloat coefficient;
 
-// 是否将波颠倒（控制闭合方向）
-//@property(nonatomic, assign) BOOL reversed;
 @end
 

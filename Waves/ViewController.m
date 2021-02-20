@@ -49,11 +49,11 @@
         _waveEffectView.label.text = @"RD";
         _waveEffectView.label.font = [UIFont systemFontOfSize:60 weight:UIFontWeightMedium];
         _waveEffectView.label.textAlignment = NSTextAlignmentCenter;
-        _waveEffectView.label.textColor = [UIColor blueColor];
-        _waveEffectView.waveColor = UIColor.blueColor;
-        _waveEffectView.overlapColor = UIColor.redColor;
-        _waveEffectView.amplitude = 10;
-        _waveEffectView.coefficient = 0.5;
+        _waveEffectView.label.textColor = [UIColor greenColor];
+        _waveEffectView.waveColor = UIColor.redColor;
+        _waveEffectView.overlapColor = UIColor.yellowColor;
+        _waveEffectView.amplitude = 4;
+        _waveEffectView.coefficient = 0.7;
         [self.view addSubview:_waveEffectView];
     }
     return _waveEffectView;
